@@ -1,11 +1,11 @@
 # Order summary card
 
-https://order-summary-card-eight-sigma.vercel.app/
-
 ## Description👋
 
 A static web component displaying an order summary card, providing users with a clear overview of their purchase details.
 
+### Live Demo
+https://order-summary-card-eight-sigma.vercel.app/
 
 ## Features 
 
