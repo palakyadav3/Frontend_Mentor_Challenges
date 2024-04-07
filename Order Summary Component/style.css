@@ -1,0 +1,157 @@
+@import url();
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display' sans-serif;
+}
+
+body{
+    
+    min-height: 100vh;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.main-container{
+    background-color: white;
+    max-width: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.text-container{
+    padding: 7%;
+}
+.text-container .title{
+    color: hsl(223, 47%, 23%);
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 20px;
+    
+    
+}
+
+.text-container p{
+    color: #696969;
+    margin-bottom: 25px;
+    font-weight: lighter;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    
+}
+
+.plain-box{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;    
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.plain-box-left{
+    display: flex;
+    align-items: center;
+    text-align: left;
+   justify-content: space-between;
+}
+
+
+.plain-box-left div{
+    position: relative;
+    margin-left: 20px;
+    top: 10px;
+}
+
+.plain-box-left div h5{
+    font-weight: bolder;
+    font-size: 15px;
+    color: hsl(223, 47%, 23%);
+}
+
+.plain-box-left div p{
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #8a8a8a;
+    font-weight: 600;
+}
+.plain-box a{
+    font-weight: 900;
+}
+
+.plain-box button{
+    font-weight: 700;
+    color: hsl(223, 47%, 23%) ;
+}
+
+button.proceed-btn{
+    display: block;
+    color: white;
+    background-color:hsl(245, 75%, 52%);
+    padding: 15px;
+    width: 100%; 
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 0;
+    font-size: 18px;
+    font-weight: 700;
+   margin: 25px 0;
+   box-shadow: 0 15px 15px hsla(245, 69%, 56%, 0.381);
+   cursor: pointer;
+}
+
+button.proceed-btn:hover{
+    background-color:rgb(23, 2, 255);
+}
+
+button.cancel-btn{
+    background: transparent;
+    border: none;
+    font-weight: 700;
+    color: grey;
+    font-size: 16px;
+    width: 100%;
+    cursor:pointer  ;
+}
+button.cancel-btn:hover{
+    color: rgb(37, 37, 37);
+}
+
+@media (hover:hover){
+.proceed-btn, .cancel-btn{
+    transition: all ease-in 6s;
+}
+}
+
+@media screen and (max-width: 425px) {
+    body{
+        
+         background-image: url(images/pattern-background-mobile.svg); 
+         background-repeat: no-repeat;
+        background-size: contain;
+        background-color: blue;
+        font-size: 14px;
+    }
+    .main-container{
+        max-width: 85%;
+    }
+    .title{
+        font-size: 22px;
+    }
+    .plain-box{
+        padding: 12px;
+    }
+    
+}
