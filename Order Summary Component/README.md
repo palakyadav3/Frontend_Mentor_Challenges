@@ -1,10 +1,11 @@
 # Order summary card
 
-![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
+https://order-summary-card-eight-sigma.vercel.app/
 
 ## Description👋
 
 A static web component displaying an order summary card, providing users with a clear overview of their purchase details.
+
 
 ## Features 
 
@@ -18,3 +19,4 @@ A static web component displaying an order summary card, providing users with a 
 2. CSS
 
 
+![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
